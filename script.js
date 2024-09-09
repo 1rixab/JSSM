@@ -6,7 +6,7 @@ var typed = new Typed(".auto-type", {
   loop: true,
   loopCount: Infinity,
   customElements: false
-});
+}); 
 
 let startbtn = document.getElementById('startbtn');
 let mainbox = document.getElementById('maininputbox');
