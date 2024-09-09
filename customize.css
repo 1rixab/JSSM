@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#headerdiv{
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}    
+#maindiv{
+  background-image: url(chota.webp);
+}
+#inputdiv{
+    box-shadow: 1px 10px 80px 10px black;
+
+}
+#bxtxt1{
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    
+    
+    border: none;
+}
+#bxtxt2{
+    border: none;
+    background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+.bxtxt22{
+    color: white;
+}
+#startbtn{
+    background: #D38312;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+
+}
+
+@media only screen and (min-width: 700px){
+    #maindiv{
+        background-image: url(bada.webp);
+      }
+      #jsdiv{
+        justify-content: start;
+        padding-left: 8vw;
+        padding-top: 10vh;
+      }
+      #maindiv{
+        height: 112vh;
+      }
+      #recycleyour{
+        font-size: 2rem;
+      }
+      #typedtext{
+        font-size: 4rem;
+      }
+      .middletext{
+        font-size: 1.5rem;
+      }
+      #startbtn{
+        width: 9rem;
+        height: 3.5rem;
+      }
+      .hrr{
+        width: 16%;
+      }
+      #inputdiv{
+        width: 50vh;
+        margin-left: 38%;
+      }
+}
