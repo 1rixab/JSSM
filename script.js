@@ -1,8 +1,8 @@
 "use strict";
 var typed = new Typed(".auto-type", {
   strings: ["Two-Wheelers", "Three-Wheelers", "Four-Wheelers", "Mini-Trucks"],
-  typeSpeed: 100,
-  backSpeed: 100,
+  typeSpeed: 80,
+  backSpeed: 80,
   loop: true,
   loopCount: Infinity,
   customElements: false

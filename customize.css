@@ -14,28 +14,11 @@ body,html{
     
 }    
 #maindiv{
-  background-image: url(chota.webp);
+  background-image: url(portrait-scrap.jpg);
 }
 #inputdiv{
     box-shadow: 1px 10px 80px 10px black;
 
-}
-#bxtxt1{
-    background: #43cea2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
-    
-    
-    border: none;
-}
-#bxtxt2{
-    border: none;
-    background: #43cea2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
 }
 .bxtxt22{
     color: white;
@@ -46,6 +29,10 @@ background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-2
 background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color: white;
 
+}
+#jsdiv{
+  background: rgb(12,160,210);
+  background: linear-gradient(90deg, rgba(12,160,210,1) 0%, rgba(11,200,150,1) 100%);
 }
 
 @media only screen and (min-width: 700px){
