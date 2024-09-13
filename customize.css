@@ -8,17 +8,20 @@ body,html{
     height: 100%;
 }
 #headerdiv{
-    background: #2c3e50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}    
+  /* background: rgb(41,211,212);
+background: linear-gradient(90deg, rgba(41,211,212,1) 0%, rgba(11,200,131,1) 100%); */
+background-image: url('landscape22.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid white;
+}
 #maindiv{
   background-image: url(portrait-scrap.jpg);
 }
 #inputdiv{
     box-shadow: 1px 10px 80px 10px black;
-
+    background: lightgrey;
 }
 .bxtxt22{
     color: white;
@@ -34,37 +37,82 @@ color: white;
   background: rgb(12,160,210);
   background: linear-gradient(90deg, rgba(12,160,210,1) 0%, rgba(11,200,150,1) 100%);
 }
+#js{
+  font-family: 'Times New Roman', Times, serif;
+}
+@keyframes bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0) scaleX(3);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0) scaleX(1);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0) scaleX(0.98);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0) scaleX(0.995);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounceOutRight {
+  20% {
+    opacity: 1;
+    transform: translate3d(-20px, 0, 0) scaleX(0.9);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0) scaleX(2);
+  }
+}
 
 @media only screen and (min-width: 700px){
     #maindiv{
-        background-image: url(bada.webp);
+        background-image: url(landscape-scrap.jpg);
       }
-      #jsdiv{
+      /* #jsdiv{
         justify-content: start;
         padding-left: 8vw;
         padding-top: 10vh;
-      }
+      } */
       #maindiv{
         height: 112vh;
       }
       #recycleyour{
-        font-size: 2rem;
+        font-size: 2em;
       }
       #typedtext{
-        font-size: 4rem;
-      }
-      .middletext{
-        font-size: 1.5rem;
+        font-size: 3.5em;
       }
       #startbtn{
-        width: 9rem;
-        height: 3.5rem;
+        width: 8em;
+        height: 3em;
       }
       .hrr{
         width: 16%;
       }
       #inputdiv{
         width: 50vh;
-        margin-left: 38%;
+        margin-left: 27em;
+      }
+      #fdiv{
+        height: 20em;
       }
 }

@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="customize.css">
     <script src="https://kit.fontawesome.com/3934701127.js" crossorigin="anonymous"></script>
-    <style>
-          
-    </style>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body class="relative">
-    <div class="hidden" id="maininputbox">
-    <div class="absolute w-[93%] h-[50%] bg-[#fdf4bd] m-[.8rem] rounded-[1rem] flex justify-center items-center" id="inputdiv">
+    <div class="hidden " id="maininputbox">
+    <div class="absolute bottom-56 w-[93%] h-[25em] m-[.8rem] rounded-[1rem] flex justify-center items-center" id="inputdiv">
         <div class="w-[90%] h-[95%]">
         <div class="w-100% flex justify-end">
-            <i class="fa-solid fa-xmark text-[2.5rem] font-thin" id="xmark"></i>
+            <i class="fa-solid fa-xmark text-[2.2em] font-thin" id="xmark"></i>
         </div>
-            <div class="w-100% h-[62%] flex flex-col items-center">
+            <div class="w-100% h-[90%] flex flex-col items-center">
                 <form name="submit-to-google-sheet" class="flex flex-col items-center">
-                <input type="text" id="fullname" placeholder="Full Name" name="name" class="w-[15rem] p-[.6rem] outline-none bg-[#fefade] mt-[5%]" required>
-                <input type="number" id="phone" placeholder="Contact Number" name="contact" class="w-[15rem] p-[.6rem] outline-none bg-[#fefade] mt-[5%]" required>
-                <input type="text" id="address" placeholder="Vehicle Location" name="address" class="w-[15rem] p-[.6rem] outline-none bg-[#fefade] mt-[5%]" required>
-                <input type="text" id="model" placeholder="Vehicle description" name="model" class="w-[15rem] py-[2rem] pl-[.6rem] outline-none bg-[#fefade] mt-[5%]" required>
-                <input type="submit" name="submit" id="submitbtn" placeholder="get" class="bg-yellow-400 w-[17vh] h-[6vh] font-semibold mt-[5%]"></input>
+                <input type="text" id="fullname" placeholder="Full Name" name="name" class="w-[15em] p-[.4em] outline-none bg-[#fefade] mt-[5%]" required>
+                <input type="number" id="phone" placeholder="Contact Number" name="contact" class="w-[15em] p-[.4em] outline-none bg-[#fefade] mt-[5%]" required>
+                <input type="text" id="address" placeholder="Vehicle Location" name="address" class="w-[15em] p-[.4em] outline-none bg-[#fefade] mt-[5%]" required>
+                <input type="text" id="model" placeholder="Vehicle description" name="model" class="w-[15em] py-[1.5em] pl-[.4em] outline-none bg-[#fefade] mt-[5%]" required>
+                <input type="submit" name="submit" id="submitbtn" placeholder="get" class="bg-yellow-400 w-[8em] h-[3em] font-semibold mt-[5%]"></input>
                 </form>
                 </div>
             </div>
@@ -33,8 +34,14 @@
     </div>
     </div>
  <header>
-    <div id="headerdiv" class="w-100% h-[9vh] flex flex-col justify-center items-center">
-        <h1 class="text-white font-semibold text-[3em]">JS recycling</h1>
+    <div id="headerdiv" class="w-100% h-[12vh] flex items-center">
+        <img class="h-[100%] ml-[em]" src="jslogo.png">
+        
+        <!-- <h1 id="js" class="text-[5em] text text-white">JS</h1> -->
+        <!-- <h1 id="js" class="text-[5em] text text-white">JS</h1> -->
+        <!-- <i class="fa-solid fa-j text-[3em] animate__animated animate__bounce" style="color: #f7f9fc;">&nbsp;</i>
+        <i class="fa-solid fa-s text-[3em] animate__animated animate__bounce" style="color: #f7f9fc;">&nbsp;</i>
+        <h1 class="text-white font-semibold text-[3em] animate__animated animate__bounce">recycling</h1> -->
         <!-- <h1 class="text-white font-bold"> - JS SCRAP -</h1> -->
     </div>
  </header>
@@ -45,7 +52,7 @@
                <p class="text-[1.2em] font-sans text-white font-semibold">RECYCLING FACILITY</p>
         </div>
         <div class="w-100% flex flex-col items-center font-thin">
-            <p class="text-white text-[2em]" id="recycleyour">Get Instant Quote for</p>
+            <p class="text-white text-[2em] font-bolder" id="recycleyour">Get Instant Quote for</p>
             <h1 class="text-white text-[2.2rem] font-semibold font-serif" id="typedtext"><span class="auto-type"></span></h1>
         </div>
         <div class="w-100% justify-center flex">
@@ -57,27 +64,29 @@
         </div>
         <div class="w-100% h-[25%]"></div>
          <div class="h-[18%] w-100% flex flex-col justify-end">
-            <div class="bg-[green] bg-opacity-70 w-[100%] h-[7em] flex justify-center items-center ">
+            <div class="bg-[green] bg-opacity-70 w-[100%] h-[7em]">
+               <div class="flex justify-center items-center" id="jhakaas">
                 <i class="fa-solid fa-phone text-[1.8em]" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-whatsapp text-[2.3em] mx-[.3em]" style="color: #ffffff;"></i>
                 <p class="text-[2em] text-white">7827966785</p>
+               </div>
              </div>
         <div class="w-100% h-[44%] bg-opacity-80 flex justify-center items-center bg-[#1b4d89]" id="bxtxt1">
-          <p class="text-white font-semibold text-[1.5em] bxtxt11">Same Day Pickup & Payment</p>
+          <p class="text-white font-semibold text-[1.3em] bxtxt11">Same Day Pickup & Payment</p>
         </div>
         <div class="w-100% h-[44%] bg-opacity-80 flex flex-col justify-center items-center bg-[#1b4d89]" id="bxtxt2">
-          <p class="font-bold text-[1.5em] bxtxt22">Minimal Paper work</p>
+          <p class="font-bold text-[1.3em] bxtxt22">Minimal Paper work</p>
         </div>
          </div>
     </div>
  </main>
  <footer>
-    <div class="w-100% h-[35em] bg-[#1b4d89] flex flex-col items-center justify-evenly">
-    <p class="text-[2em] text-yellow-100">Why Recycle Your Vehicle</p>
+    <div class="w-100% h-[35em] bg-[#1b4d89] flex flex-col items-center justify-evenly" id="fdiv">
+    <p class="text-[1.5em] text-yellow-100">Why Recycle Your Vehicle</p>
     <p class="text-[1em] text-white text-wrap ml-[6vw]">Recycling End-of-Life-Vehicles (ELV) helps reduce air and water pollution that is otherwise emitted in the production of new vehicles. It helps conserve fossil fuels required for steel production.</p>
     <p class="text-[1em] text-white ml-[6vw]">Recycling vehicles also saves energy that would be used for creating new materials. Recycling steel requires 74% less energy compared to making new steel.</p>
-    <p class="text-[1em] text-white ml-[6vw]">Recycling your vehicle helps save natural resources. The use of scrap metal replaces a significant part of mining for iron ore, coal, and other materials.</p>
-    <p class="text-[1em] text-white ml-[6vw]">Required documents and a legally valid certificate of destruction is issued to the owner to help with deregistration of vehicle from the relevant R.T.O.</p>
+    <p class="text-[1em] text-white ml-[6vw]" id="lastpara">Recycling your vehicle helps save natural resources. The use of scrap metal replaces a significant part of mining for iron ore, coal, and other materials.</p>
+    
     </div>
  </footer>
 </div>

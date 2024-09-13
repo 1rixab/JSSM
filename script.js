@@ -12,12 +12,15 @@ let startbtn = document.getElementById('startbtn');
 let mainbox = document.getElementById('maininputbox');
 let typedtext = document.getElementById("typedtext");
 let xmark = document.getElementById("xmark");
+let phonediv = document.getElementById("jhakaas");
+let lastpara = document.getElementById('lastpara');
 startbtn.addEventListener('click',()=>{
+  phonediv.style.animationName = "bounceInLeft";
   mainbox.style.display = 'block';
   typedtext.style.display = 'none';
-
 })
 xmark.addEventListener('click',()=>{
+  phonediv.style.animationName = "bounceOutRight";
   mainbox.style.display = "none";
   typedtext.style.display = "block";
 })
@@ -36,3 +39,15 @@ form.addEventListener("submit", (e) => {
     document.getElementById('address').value = '';
     document.getElementById('model').value = '';
 });
+
+lastpara.addEventListener('dblclick', () =>{
+  let mypas = prompt('enter password')
+  if(mypas ==='2004'){
+  alert(`Creater - Rishabh yadav 
+  linkedIN - https://www.linkedin.com/in/risabh-yadav-455963261/`)
+  
+
+  }else{
+    alert('Wrong Password')
+  }
+})
